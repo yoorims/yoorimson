@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Yoorim Son's academic homepage: applied microeconomics, development economics, causal inference, spatial analysis, and GIS."
+    />
+    <title>Yoorim Son</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="./index.html" data-profile="name">Yoorim Son</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a class="is-active" href="./index.html">About</a>
+          <a href="./resume.html">Resume</a>
+          <a href="./papers.html">Papers</a>
+          <a href="./conferences.html">Conferences</a>
+          <a href="./works.html">Works</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="profile-panel" aria-labelledby="profile-title">
+        <div class="profile-main">
+          <p class="eyebrow">Applied Microeconomics · Development Economics</p>
+          <h1 id="profile-title" data-profile="name">Yoorim Son</h1>
+          <p class="subtitle" data-profile="tagline">
+            M.A. student in Economics interested in applied microeconomics, development economics, causal inference, spatial analysis, and GIS.
+          </p>
+          <p data-profile="bio">
+            I am an M.A. student in Economics at Sogang University. My current working paper
+            studies the economic impact of submarine cable arrival on local economic activity in South Africa.
+          </p>
+
+          <div class="inline-links" aria-label="Profile links">
+            <a href="mailto:hello@example.com" data-profile-link="email">Email</a>
+            <a href="./assets/CV_YoorimSon.pdf" target="_blank" rel="noreferrer">CV PDF</a>
+            <a href="./resume.html">Resume</a>
+            <a href="https://scholar.google.com/" target="_blank" rel="noreferrer" data-profile-link="scholar">Google Scholar</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer" data-profile-link="github">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile summary">
+          <figure class="profile-photo">
+            <img src="" alt="Yoorim Son profile photo" data-profile-image hidden />
+            <span data-profile="initials">YS</span>
+          </figure>
+          <dl class="profile-list">
+            <div>
+              <dt>Affiliation</dt>
+              <dd data-profile="affiliation">M.A. in Economics, Sogang University</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd data-profile="location">Seoul, Korea</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:hello@example.com" data-profile-link="email">yoorim0917@gmail.com</a></dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="snapshot-grid" aria-label="Research snapshot">
+        <article>
+          <span>Current Paper</span>
+          <strong>Submarine cable arrival and local economic activity in South Africa</strong>
+        </article>
+        <article>
+          <span>Methods</span>
+          <strong>DiD, IV (2SLS), district-level panel data, satellite-based proxies</strong>
+        </article>
+        <article>
+          <span>Fields</span>
+          <strong>Applied microeconomics, development economics, causal inference</strong>
+        </article>
+      </section>
+
+      <section class="section-block" aria-labelledby="intro-title">
+        <h2 id="intro-title">Introduction</h2>
+        <p>
+          I am currently pursuing an M.A. in Economics at Sogang University. My academic
+          background combines economics training with regional expertise in South African
+          languages and cultures, political science, and study experience in Botswana.
+          I am building an empirical research profile around development economics,
+          causal inference, spatial analysis, and GIS.
+        </p>
+      </section>
+
+      <section class="section-block" id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research Interests</h2>
+        <div class="research-list" id="research-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section-block" id="log" aria-labelledby="log-title">
+        <div class="section-heading">
+          <h2 id="log-title">Recent Updates</h2>
+          <div class="filter-tabs" role="tablist" aria-label="Filter updates">
+            <button class="filter-tab is-active" type="button" data-filter="all">All</button>
+            <button class="filter-tab" type="button" data-filter="news">News</button>
+            <button class="filter-tab" type="button" data-filter="research">Research</button>
+            <button class="filter-tab" type="button" data-filter="talk">Talk</button>
+          </div>
+        </div>
+        <div class="timeline" id="timeline" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> <span data-profile="name">Yoorim Son</span></span>
+      <span>Academic homepage</span>
+    </footer>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

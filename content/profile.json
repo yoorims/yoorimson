@@ -1,0 +1,13 @@
+{
+  "name": "Yoorim Son",
+  "initials": "YS",
+  "photo": "./assets/profile.png",
+  "role": "M.A. Student in Economics",
+  "tagline": "M.A. student in Economics interested in applied microeconomics, development economics, causal inference, spatial analysis, and GIS.",
+  "bio": "I am an M.A. student in Economics at Sogang University. My research interests include applied microeconomics, development economics, data analysis, causal inference, spatial analysis, and GIS. My current working paper studies the economic impact of submarine cable arrival on local economic activity in South Africa.",
+  "affiliation": "M.A. in Economics, Sogang University",
+  "location": "Seoul, Korea",
+  "email": "yoorim0917@gmail.com",
+  "github": "https://github.com/",
+  "scholar": "https://scholar.google.com/"
+}

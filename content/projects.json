@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Submarine Cable Arrival and Local Economic Activity",
+    "state": "Working paper",
+    "summary": "A district-level panel project on South Africa using satellite-based proxies and econometric methods including DiD and IV.",
+    "tags": ["development", "south-africa", "causal-inference"]
+  },
+  {
+    "title": "Miracle Project",
+    "state": "Research assistant",
+    "summary": "Historical Korean administrative-region data construction for 1960-1989 using statistical yearbooks and archival sources.",
+    "tags": ["data-construction", "research-assistant"]
+  },
+  {
+    "title": "Python Data Analyst Training",
+    "state": "Training",
+    "summary": "Government-sponsored training in Python data handling, data collection, machine learning basics, and visualization.",
+    "tags": ["python", "data-analysis"]
+  }
+]

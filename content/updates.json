@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-05-16",
+    "type": "news",
+    "title": "CV-based homepage update",
+    "summary": "Updated this homepage using my first CV, including education, research interests, working paper, experience, and technical skills.",
+    "tags": ["cv", "homepage"]
+  },
+  {
+    "date": "2025-12-01",
+    "type": "research",
+    "title": "Working paper in progress",
+    "summary": "Started a draft on the economic impact of submarine cable arrival on local economic activity, using evidence from South Africa.",
+    "tags": ["working-paper", "south-africa"]
+  },
+  {
+    "date": "2025-11-01",
+    "type": "research",
+    "title": "Miracle Project research assistance",
+    "summary": "Joined the Miracle Project as a research assistant, contributing to historical Korean administrative-region data construction.",
+    "tags": ["research-assistant", "data"]
+  }
+]

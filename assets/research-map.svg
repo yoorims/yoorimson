@@ -1,0 +1,72 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Research map illustration</title>
+  <desc id="desc">A visual map of connected research notes, logs, and timelines.</desc>
+  <rect width="1200" height="1500" fill="#F2F5EF"/>
+  <path d="M124 254C252 186 344 189 467 255C587 319 687 318 813 243C920 179 1011 174 1114 221" stroke="#D6DED4" stroke-width="16" stroke-linecap="round"/>
+  <path d="M83 1025C236 930 399 926 536 1021C667 1113 808 1120 971 1004C1040 955 1091 938 1157 942" stroke="#D6DED4" stroke-width="16" stroke-linecap="round"/>
+  <g opacity="0.8">
+    <path d="M160 380H1018" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M160 560H1018" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M160 740H1018" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M160 920H1018" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M160 1100H1018" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M300 270V1218" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M520 270V1218" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M740 270V1218" stroke="#DDE4DA" stroke-width="2"/>
+    <path d="M960 270V1218" stroke="#DDE4DA" stroke-width="2"/>
+  </g>
+  <path d="M258 986C372 804 456 641 603 626C773 608 793 420 937 364" stroke="#315F7D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M264 986C368 1069 489 1138 621 1045C763 946 777 782 933 727" stroke="#2F6F4E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M254 986C313 878 406 899 474 771C548 631 489 501 595 414" stroke="#9F4F38" stroke-width="8" stroke-linecap="round"/>
+  <g>
+    <rect x="145" y="285" width="338" height="180" rx="24" fill="white" stroke="#CBD5CC" stroke-width="3"/>
+    <rect x="185" y="330" width="175" height="16" rx="8" fill="#2F6F4E"/>
+    <rect x="185" y="372" width="244" height="12" rx="6" fill="#D8DED7"/>
+    <rect x="185" y="402" width="198" height="12" rx="6" fill="#D8DED7"/>
+    <circle cx="414" cy="344" r="27" fill="#E7EFE8" stroke="#2F6F4E" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="626" y="286" width="398" height="214" rx="24" fill="white" stroke="#CBD5CC" stroke-width="3"/>
+    <rect x="670" y="331" width="118" height="18" rx="9" fill="#315F7D"/>
+    <rect x="670" y="381" width="296" height="12" rx="6" fill="#D8DED7"/>
+    <rect x="670" y="414" width="222" height="12" rx="6" fill="#D8DED7"/>
+    <rect x="670" y="447" width="262" height="12" rx="6" fill="#D8DED7"/>
+    <circle cx="944" cy="348" r="29" fill="#E8EEF3" stroke="#315F7D" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="207" y="650" width="315" height="222" rx="24" fill="white" stroke="#CBD5CC" stroke-width="3"/>
+    <rect x="249" y="695" width="122" height="18" rx="9" fill="#9F4F38"/>
+    <rect x="249" y="746" width="215" height="12" rx="6" fill="#D8DED7"/>
+    <rect x="249" y="779" width="177" height="12" rx="6" fill="#D8DED7"/>
+    <rect x="249" y="812" width="236" height="12" rx="6" fill="#D8DED7"/>
+  </g>
+  <g>
+    <rect x="605" y="675" width="430" height="260" rx="24" fill="white" stroke="#CBD5CC" stroke-width="3"/>
+    <rect x="649" y="722" width="152" height="18" rx="9" fill="#A97923"/>
+    <path d="M666 816H968" stroke="#D8DED7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M666 864H896" stroke="#D8DED7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M666 768H935" stroke="#D8DED7" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="930" cy="734" r="30" fill="#F4EBD8" stroke="#A97923" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="287" y="1025" width="476" height="246" rx="24" fill="white" stroke="#CBD5CC" stroke-width="3"/>
+    <rect x="331" y="1072" width="156" height="18" rx="9" fill="#2F6F4E"/>
+    <path d="M350 1162H694" stroke="#D8DED7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M350 1211H612" stroke="#D8DED7" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="687" cy="1086" r="29" fill="#E7EFE8" stroke="#2F6F4E" stroke-width="4"/>
+  </g>
+  <g>
+    <circle cx="258" cy="986" r="22" fill="#202321"/>
+    <circle cx="603" cy="626" r="18" fill="#315F7D"/>
+    <circle cx="937" cy="364" r="18" fill="#315F7D"/>
+    <circle cx="621" cy="1045" r="18" fill="#2F6F4E"/>
+    <circle cx="933" cy="727" r="18" fill="#2F6F4E"/>
+    <circle cx="474" cy="771" r="18" fill="#9F4F38"/>
+    <circle cx="595" cy="414" r="18" fill="#9F4F38"/>
+  </g>
+  <g opacity="0.72">
+    <text x="145" y="1375" fill="#616B64" font-family="Arial, sans-serif" font-size="42" font-weight="700">notes</text>
+    <text x="369" y="1375" fill="#616B64" font-family="Arial, sans-serif" font-size="42" font-weight="700">experiments</text>
+    <text x="734" y="1375" fill="#616B64" font-family="Arial, sans-serif" font-size="42" font-weight="700">writing</text>
+  </g>
+</svg>

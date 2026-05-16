@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Applied Microeconomics and Development Economics",
+    "status": "Primary field",
+    "cadence": "Research agenda",
+    "summary": "I am interested in empirical questions in development economics, especially how infrastructure and local conditions shape economic activity."
+  },
+  {
+    "title": "Causal Inference and Panel Data",
+    "status": "Methodological focus",
+    "cadence": "Working paper",
+    "summary": "My current work uses district-level panel data and econometric methods including difference-in-differences and instrumental variables."
+  },
+  {
+    "title": "Spatial Analysis and GIS",
+    "status": "Technical focus",
+    "cadence": "Data construction",
+    "summary": "I work with spatial analysis, GIS, satellite-based proxies, data collection, cleaning, and panel data construction."
+  }
+]
