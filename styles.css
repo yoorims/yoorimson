@@ -89,7 +89,7 @@ a {
 
 .profile-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: 250px minmax(0, 1fr);
   gap: 52px;
   align-items: start;
   padding-bottom: 34px;
@@ -197,7 +197,6 @@ p {
 
 .profile-card {
   display: grid;
-  grid-template-columns: 106px minmax(0, 1fr);
   gap: 18px;
   align-items: start;
 }
@@ -461,8 +460,8 @@ p {
 
   .profile-card {
     grid-template-columns: 106px minmax(0, 1fr);
-    padding-top: 22px;
-    border-top: 1px solid var(--line);
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line);
   }
 
   .snapshot-grid {
