@@ -27,7 +27,7 @@ content/profile.json
 
 - `content/profile.json`: 이름, 소개, 소속, 이메일, 링크
 - `content/research.json`: About 페이지의 연구 관심사 카드
-- `content/updates.json`: About 페이지의 Recent Updates
+- `content/updates.json`: 향후 필요할 때 다시 쓸 수 있도록 보존한 업데이트 자료(현재 공개 페이지에는 표시하지 않음)
 - `resume.html`: 학력, 경력, 스킬
 - `papers.html`: 논문, preprint, manuscript
 - `conferences.html`: 발표, 포스터
