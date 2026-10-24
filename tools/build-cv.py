@@ -123,12 +123,13 @@ section("Research Interests", [[p(
 
 section("Working Papers", [[
     p(link("Mobile Broadband Upgrading and Spatial Inequality in South Africa",
-           "https://yoorims.github.io/yoorimson/assets/SA_Broadband_TP_prose_revised_20261024.pdf")
-      + " (with Hyunjoo Yang). October 2026."),
+           "https://yoorims.github.io/yoorimson/assets/SA_Broadband_TP_prose_revised_20261024.pdf")),
+    p("(with Hyunjoo Yang). October 2026."),
     Spacer(1, 2),
     p("Uses quarterly Ookla data to examine how mobile broadband upgrading during South Africa's "
-      "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority. "
-      "Shows that reductions in low-speed disadvantage can coexist with widening absolute speed "
+      "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority."),
+    Spacer(1, 2),
+    p("Shows that reductions in low-speed disadvantage<br/>can coexist with widening absolute speed "
       "gaps across municipalities."),
 ]])
 
@@ -138,15 +139,18 @@ section("Research\nExperience", [
      p("Research Group Member (Master's Student), Sogang University"),
      p("Lab Head: Hyunjoo Yang"),
      Spacer(1, 2),
-     p("Work on crop-area prediction using machine learning and spatial data across Asian countries. "
-       "Built maize and rice ground-truth datasets, completed rice sampling, and am constructing "
+     p("Work on crop-area prediction using machine learning and spatial data across Asian countries."),
+     Spacer(1, 2),
+     p("Built maize and rice ground-truth datasets, completed rice sampling, and am constructing "
        "XGBoost features for cultivated-area prediction.")],
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
-     p("Research Associate; Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang"),
+     p("Research Associate"),
+     p("Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang"),
      Spacer(1, 2),
-     p("Help build a consistent township-year economic panel from historical yearbooks and archival records. "
-       "Completed administrative-region data collection, coordinated a five-person team, and now "
+     p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
+     Spacer(1, 2),
+     p("Completed administrative-region data collection, coordinated a five-person team, and now "
        "work on OCR extraction and processing.")],
 ])
 
@@ -155,7 +159,7 @@ section("Seminars &\nConferences", [[
                "https://sites.google.com/view/ker2026/program"), "June 22, 2026"),
     p("Halla Convention Center, Jeju, South Korea"),
     Spacer(1, 2),
-    p("<i>The Economic Impact of Submarine Cable Arrival on Local Economic Activity: "
+    p("<i>The Economic Impact of Submarine Cable Arrival on Local Economic Activity:<br/>"
       "Evidence from South Africa</i> (with Hyunjoo Yang)."),
     p("Presenter; Contributed Session A5: Empirical Microeconomics"),
     Spacer(1, 2),
