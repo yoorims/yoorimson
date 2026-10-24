@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Yoorim Son's academic homepage: applied microeconomics, development economics, causal inference, spatial analysis, and GIS."
+      content="Yoorim Son is an M.A. student in Economics studying digital infrastructure, local development, spatial inequality, and economic measurement."
     />
     <title>Yoorim Son</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -19,7 +19,7 @@
           <a href="./papers.html">Research</a>
           <a href="./resume.html">Resume</a>
           <a href="./assets/CV_YoorimSon.pdf">CV</a>
-          <a href="mailto:hello@example.com" data-profile-link="email">Contact</a>
+          <a href="./index.html#contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -42,56 +42,62 @@
             </div>
             <div>
               <dt>Email</dt>
-              <dd><a href="mailto:hello@example.com" data-profile-link="email">yoorim0917@gmail.com</a></dd>
+              <dd><a href="mailto:yoorim0917@gmail.com" data-profile-link="email">yoorim0917@gmail.com</a></dd>
             </div>
           </dl>
         </aside>
 
         <div class="profile-main">
-          <p class="eyebrow">Applied Microeconomics · Development Economics</p>
-          <h1 id="profile-title" data-profile="name">Yoorim Son</h1>
-          <p class="subtitle" data-profile="tagline">
-            M.A. student in Economics interested in applied microeconomics, development economics, causal inference, spatial analysis, and GIS.
-          </p>
-          <p data-profile="bio">
-            I am an M.A. student in Economics at Sogang University. My current working paper
-            studies the economic impact of submarine cable arrival on local economic activity in South Africa.
-          </p>
+          <p class="eyebrow" data-profile="name">Yoorim Son</p>
+          <h1 class="hero-heading" id="profile-title" data-profile="tagline">
+            Development Economics and Digital Infrastructure
+          </h1>
+          <div class="hero-introduction">
+            <p>
+              I am an M.A. student in Economics at Sogang University, advised by Professor
+              Hyunjoo Yang. My research interests lie in development economics and applied
+              microeconomics, with a focus on digital infrastructure, local economic development,
+              spatial inequality, and economic measurement using geospatial and satellite data.
+            </p>
+            <p>
+              My current research examines how mobile broadband upgrading is distributed across
+              South African municipalities with different initial service quality and poverty
+              levels. I also study spatial broadband adjustment and formal employment following
+              the activation of the Equiano submarine cable.
+            </p>
+            <p>
+              I am a member of the <a href="https://hy263.github.io/projects/">Sogang Spatial
+              Economics &amp; AI Lab</a> and a Research Associate with
+              <a href="https://miracle.bookangseol.com/">MIRACLE</a>, contributing to research
+              using satellite imagery, geospatial data, and historical records.
+            </p>
+          </div>
 
           <div class="inline-links" aria-label="Profile links">
-            <a href="mailto:hello@example.com" data-profile-link="email">Email</a>
-            <a href="./assets/CV_YoorimSon.pdf" target="_blank" rel="noreferrer">CV PDF</a>
-            <a href="./resume.html">Resume</a>
-            <a href="https://scholar.google.com/" target="_blank" rel="noreferrer" data-profile-link="scholar">Google Scholar</a>
+            <a href="./assets/CV_YoorimSon.pdf" target="_blank" rel="noreferrer">CV</a>
+            <a href="./papers.html">Research</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer" data-profile-link="github">GitHub</a>
+            <a href="mailto:yoorim0917@gmail.com" data-profile-link="email">Email</a>
           </div>
         </div>
       </section>
 
-      <section class="snapshot-grid" aria-label="Research snapshot">
-        <article>
-          <span>Current Paper</span>
-          <strong>Submarine cable arrival and local economic activity in South Africa</strong>
-        </article>
-        <article>
-          <span>Methods</span>
-          <strong>DiD, IV (2SLS), district-level panel data, satellite-based proxies</strong>
-        </article>
-        <article>
-          <span>Fields</span>
-          <strong>Applied microeconomics, development economics, causal inference</strong>
-        </article>
-      </section>
-
-      <section class="section-block" aria-labelledby="intro-title">
-        <h2 id="intro-title">Introduction</h2>
-        <p>
-          I am currently pursuing an M.A. in Economics at Sogang University. My academic
-          background combines economics training with regional expertise in South African
-          languages and cultures, political science, and study experience in Botswana.
-          I am building an empirical research profile around development economics,
-          causal inference, spatial analysis, and GIS.
-        </p>
+      <section class="section-block glance-section" aria-labelledby="glance-title">
+        <h2 id="glance-title">Research at a Glance</h2>
+        <div class="snapshot-grid">
+          <article>
+            <span>Current Paper</span>
+            <strong><a href="./papers.html#mobile-broadband">Mobile Broadband Upgrading and Spatial Inequality in South Africa</a></strong>
+          </article>
+          <article>
+            <span>Research Focus</span>
+            <strong>Digital infrastructure, local development, spatial inequality, African development</strong>
+          </article>
+          <article>
+            <span>Methods &amp; Data</span>
+            <strong>Panel data, event studies, spatial analysis, GIS, satellite data, synthetic control, machine learning</strong>
+          </article>
+        </div>
       </section>
 
       <section class="section-block" id="research" aria-labelledby="research-title">
@@ -99,6 +105,62 @@
         <div class="research-list" id="research-list" aria-live="polite"></div>
       </section>
 
+      <section class="section-block" aria-labelledby="projects-title">
+        <h2 id="projects-title">Ongoing Research &amp; Collaborations</h2>
+        <div class="project-list" id="project-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section-block readable-copy" id="background" aria-labelledby="background-title">
+        <h2 id="background-title">Background</h2>
+        <p>
+          I am currently pursuing an M.A. in Economics at Sogang University and expect to
+          graduate in 2027.
+        </p>
+        <p>
+          Before graduate study in economics, I received a B.A. in South African Languages and
+          Cultures from Hankuk University of Foreign Studies, with a minor in Political Science
+          and Diplomacy. My undergraduate training focused on Southern African regional studies,
+          politics, and international relations.
+        </p>
+        <p>
+          I also studied at the University of Botswana as an exchange student, where I took
+          coursework in political science. These experiences contributed to my interest in
+          empirical research on development and economic change in African settings.
+        </p>
+      </section>
+
+      <section class="section-block compact-section" aria-labelledby="methods-title">
+        <h2 id="methods-title">Methods &amp; Data</h2>
+        <dl class="detail-list compact-details">
+          <div>
+            <dt>Programming</dt>
+            <dd>Python</dd>
+          </div>
+          <div>
+            <dt>Empirical Methods</dt>
+            <dd>Fixed effects, event studies, spatial exposure designs, synthetic-control diagnostics</dd>
+          </div>
+          <div>
+            <dt>Machine Learning</dt>
+            <dd>XGBoost, sampling, feature construction</dd>
+          </div>
+          <div>
+            <dt>Data Experience</dt>
+            <dd>Panel data, administrative records, broadband performance data, geospatial/GIS data, satellite-derived measures, historical archival records, crop ground-truth data, OCR workflows</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section-block contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>I am currently based at Sogang University in Seoul, Korea.</p>
+        <div class="inline-links" aria-label="Contact links">
+          <a href="mailto:yoorim0917@gmail.com" data-profile-link="email">Email</a>
+          <a href="./assets/CV_YoorimSon.pdf" target="_blank" rel="noreferrer">CV</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" data-profile-link="github">GitHub</a>
+          <a href="./papers.html">Research</a>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">

@@ -1,33 +1,75 @@
 const fallbackData = {
   profile: {
-    name: "Yoorim Son",
-    initials: "YS",
-    role: "M.A. Student in Economics",
-    tagline:
-      "M.A. student in Economics interested in applied microeconomics, development economics, causal inference, spatial analysis, and GIS.",
-    bio:
-      "I am an M.A. student in Economics at Sogang University. My current working paper studies the economic impact of submarine cable arrival on local economic activity in South Africa.",
-    affiliation: "M.A. in Economics, Sogang University",
-    location: "Seoul, Korea",
-    email: "hello@example.com",
-    github: "https://github.com/",
-    scholar: "https://scholar.google.com/"
+    "name": "Yoorim Son",
+    "initials": "YS",
+    "photo": "./assets/profile.png",
+    "role": "M.A. Student in Economics",
+    "tagline": "Development Economics and Digital Infrastructure",
+    "bio": "I am an M.A. student in Economics at Sogang University, advised by Professor Hyunjoo Yang. My research interests lie in development economics and applied microeconomics, with a focus on digital infrastructure, local economic development, spatial inequality, and economic measurement using geospatial and satellite data. My current research examines mobile broadband upgrading across South African municipalities with different initial quality and poverty levels, as well as spatial broadband adjustment and employment following Equiano. I am a member of the Sogang Spatial Economics & AI Lab and a Research Associate with MIRACLE.",
+    "affiliation": "M.A. in Economics, Sogang University",
+    "location": "Seoul, Korea",
+    "email": "yoorim0917@gmail.com",
+    "github": "https://github.com/yoorims",
+    "scholar": "https://scholar.google.com/"
   },
   projects: [
     {
-      title: "Submarine Cable Arrival and Local Economic Activity",
-      state: "Active",
-      summary: "A district-level panel project on South Africa using satellite-based proxies and econometric methods.",
-      tags: ["development", "south-africa"]
+      "title": "Sogang Spatial Economics & AI Lab",
+      "state": "Research Group Member",
+      "period": "Apr 2026–Present · Sogang University",
+      "summary": "Led by Hyunjoo Yang, the lab brings together geospatial data, economics, and machine learning. My work focuses on agricultural prediction: constructing maize and rice ground-truth datasets, completing rice sampling, and building XGBoost features to predict cultivated area across Asian countries.",
+      "url": "https://hy263.github.io/projects/",
+      "linkLabel": "Lab website",
+      "tags": [
+        "remote sensing",
+        "machine learning",
+        "agriculture"
+      ]
+    },
+    {
+      "title": "MIRACLE — Subnational Economic Data for South Korea, 1960–1989",
+      "state": "Research Associate",
+      "period": "Nov 2025–Present",
+      "summary": "MIRACLE is building a consistent township-year economic panel from municipal statistical yearbooks and other archival records. I completed administrative-region data collection, coordinated a five-person collection team, and now work on OCR-based extraction and processing of historical statistical records.",
+      "url": "https://miracle.bookangseol.com/",
+      "linkLabel": "Project website",
+      "tags": [
+        "historical data",
+        "OCR",
+        "geographic harmonization"
+      ]
+    },
+    {
+      "title": "Satellite-Based Measurement of North Korean Economic Activity",
+      "state": "Upcoming Collaboration",
+      "period": "Bank of Korea",
+      "summary": "A planned collaboration using satellite data to estimate industrial production and develop measures of economic activity where conventional statistics are limited.",
+      "tags": [
+        "economic measurement",
+        "satellite data"
+      ]
     }
   ],
   research: [
     {
-      title: "Applied Microeconomics and Development Economics",
-      status: "Primary field",
-      cadence: "Research agenda",
+      title: "Digital Infrastructure and Development",
       summary:
-        "I am interested in empirical questions in development economics, especially how infrastructure and local conditions shape economic activity."
+        "I am interested in how improvements in digital connectivity and other forms of infrastructure shape local economic development, particularly when the benefits of new infrastructure are distributed unevenly across space."
+    },
+    {
+      title: "Spatial Development and Inequality",
+      summary:
+        "I study spatial differences in access to infrastructure and economic opportunities, and how these differences contribute to uneven patterns of local and regional development."
+    },
+    {
+      title: "Remote Sensing and Economic Measurement",
+      summary:
+        "I am interested in combining conventional economic data with satellite imagery, geospatial information, and other nontraditional data sources to measure economic activity where standard administrative or survey data are limited."
+    },
+    {
+      title: "African Development",
+      summary:
+        "My regional interests center on African economies, with particular attention to infrastructure, technological change, local development, and spatial inequality."
     }
   ]
 };
@@ -90,14 +132,8 @@ function renderResearch(items) {
     .map(
       (item) => `
         <article class="research-topic">
-          <div>
-            <h3>${item.title}</h3>
-            <p>${item.summary}</p>
-          </div>
-          <div class="research-meta">
-            <span>${item.status}</span>
-            <span>${item.cadence}</span>
-          </div>
+          <h3>${item.title}</h3>
+          <p>${item.summary}</p>
         </article>
       `
     )
@@ -115,7 +151,9 @@ function renderProjects(items) {
           <div>
             <span class="project-state">${item.state}</span>
             <h3>${item.title}</h3>
+            ${item.period ? `<p class="meta-line">${item.period}</p>` : ""}
             <p>${item.summary}</p>
+            ${item.url ? `<p><a href="${item.url}">${item.linkLabel}</a></p>` : ""}
           </div>
           <footer>
             ${item.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}

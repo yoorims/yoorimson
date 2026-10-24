@@ -1,9 +1,13 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Papers | Yoorim Son</title>
+    <meta
+      name="description"
+      content="Working papers and ongoing research by Yoorim Son on mobile broadband, spatial development, and economic measurement."
+    />
+    <title>Research | Yoorim Son</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -15,31 +19,107 @@
           <a class="is-active" href="./papers.html" aria-current="page">Research</a>
           <a href="./resume.html">Resume</a>
           <a href="./assets/CV_YoorimSon.pdf">CV</a>
-          <a href="mailto:hello@example.com" data-profile-link="email">Contact</a>
+          <a href="./index.html#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main class="page-main narrow-page">
       <header class="page-title">
-        <p class="eyebrow">Papers</p>
-        <h1>Papers</h1>
-        <p>Working papers and research in progress.</p>
+        <p class="eyebrow">Research</p>
+        <h1>Research</h1>
+        <p>Digital infrastructure, spatial development, and economic measurement.</p>
       </header>
 
-      <section class="academic-list" aria-labelledby="working-title">
-        <h2 id="working-title">Working Paper</h2>
-        <article class="academic-item">
-          <p class="meta-line">Draft, Dec 2025 - Present</p>
-          <h3>The Economic Impact of Submarine Cable Arrival on Local Economic Activity: Evidence from South Africa</h3>
-          <p>Yoorim Son. Advisor: Hyunjoo Yang.</p>
+      <article class="paper-content" id="mobile-broadband" aria-labelledby="mobile-title">
+        <p class="eyebrow">Working Paper · October 2026</p>
+        <h2 id="mobile-title">Mobile Broadband Upgrading and Spatial Inequality in South Africa</h2>
+        <p class="paper-authors">With Hyunjoo Yang</p>
+        <section class="paper-summary" aria-label="Mobile broadband paper summary">
           <p>
-            This project examines the economic impact of submarine cable arrival on
-            local economic activity in South Africa. It uses district-level panel data,
-            satellite-based proxies, and econometric methods including
-            difference-in-differences and IV (2SLS).
+            How do mobile broadband improvements differ across places with different initial
+            quality and poverty levels? We follow South Africa's 2021–2024 spectrum transition
+            using quarterly Ookla measurements, comparing municipalities by initial service
+            quality, baseline poverty, and ICASA-designated priority status.
           </p>
-        </article>
+          <p>
+            Initially slow municipalities reduced their low-speed disadvantage and relative
+            speed gap, while their absolute Mbps gap grew. Priority areas also reduced their
+            low-speed disadvantage, alongside widening gaps in average speed and high-speed
+            tile shares. A separate, exploratory comparison associates higher baseline poverty
+            with less high-speed expansion; its precision varies with inference and measurement
+            coverage.
+          </p>
+          <p>
+            The findings distinguish progress within underserved places from changes in their
+            position relative to other places. Evaluating upgrading calls for tracking weak-service
+            reduction, average performance, and high-speed expansion together. These comparisons
+            describe the distribution of observed upgrading during the transition.
+          </p>
+        </section>
+        <dl class="detail-list paper-details">
+          <div>
+            <dt>Data &amp; Period</dt>
+            <dd>Quarterly Ookla measurements for South African municipalities, 2021–2024; baseline poverty and ICASA Batch 3 priority classifications.</dd>
+          </div>
+          <div>
+            <dt>Empirical Approach</dt>
+            <dd>Municipal panel comparisons of low-speed service, average performance, and high-speed expansion; separate initial-quality, priority-area, and poverty comparisons with coverage and inference checks.</dd>
+          </div>
+        </dl>
+        <div class="inline-links">
+          <a href="./assets/SA_Broadband_TP_prose_revised_20261024.pdf" target="_blank" rel="noreferrer">Read Paper PDF</a>
+        </div>
+      </article>
+
+      <article class="paper-content" id="equiano" aria-labelledby="equiano-title">
+        <p class="eyebrow">Working Paper · Draft</p>
+        <h2 id="equiano-title">Where Do International Connectivity Gains Arrive?</h2>
+        <p class="paper-authors">Spatial Broadband Upgrading and Employment after Equiano in South Africa</p>
+        <section class="paper-summary" aria-label="Paper summary">
+          <p>
+            This paper studies how post-2023 broadband quality improvements were distributed
+            across South African municipalities following the activation of the Equiano submarine
+            cable, and whether a similar spatial pattern emerged in formal employment.
+          </p>
+          <p>
+            I combine municipality-level broadband measures from Ookla and Measurement Lab with
+            sectoral PAYE employment data, geospatial distance measures, and satellite-derived
+            controls. The empirical analysis uses municipality fixed effects, event-study
+            diagnostics, alternative spatial gradients, and synthetic-control exercises.
+          </p>
+          <p>
+            I find that municipalities farther from the Melkbosstrand–Cape Town axis experienced
+            smaller relative improvements in broadband quality after 2023. The pattern appears
+            across both Ookla and M-Lab measures, but the landing point is geographically
+            inseparable from Cape Town-centered economic geography. I therefore interpret the
+            evidence as a spatially unequal broadband adjustment rather than a clean causal effect
+            of Equiano. I do not find a comparably robust spatial pattern in short-run formal
+            employment.
+          </p>
+        </section>
+
+        <dl class="detail-list paper-details">
+          <div>
+            <dt>Research Question</dt>
+            <dd>How are gains from major digital infrastructure expansions distributed across places, and to what extent are changes in connectivity reflected in local economic outcomes?</dd>
+          </div>
+          <div>
+            <dt>Data</dt>
+            <dd>Municipality-level broadband performance data, administrative employment data, GIS-based spatial measures, and satellite-derived indicators.</dd>
+          </div>
+          <div>
+            <dt>Empirical Approach</dt>
+            <dd>Fixed-effects panel models, event studies, spatial exposure and falsification designs, and synthetic-control diagnostics.</dd>
+          </div>
+        </dl>
+
+        <p class="paper-file-status">Paper PDF · Forthcoming</p>
+      </article>
+
+      <section class="section-block" aria-labelledby="ongoing-title">
+        <h2 id="ongoing-title">Ongoing Research &amp; Collaborations</h2>
+        <div class="project-list" id="project-list" aria-live="polite"></div>
       </section>
     </main>
 

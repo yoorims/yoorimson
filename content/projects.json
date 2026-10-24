@@ -1,20 +1,38 @@
 [
   {
-    "title": "Submarine Cable Arrival and Local Economic Activity",
-    "state": "Working paper",
-    "summary": "A district-level panel project on South Africa using satellite-based proxies and econometric methods including DiD and IV.",
-    "tags": ["development", "south-africa", "causal-inference"]
+    "title": "Sogang Spatial Economics & AI Lab",
+    "state": "Research Group Member",
+    "period": "Apr 2026–Present · Sogang University",
+    "summary": "Led by Hyunjoo Yang, the lab brings together geospatial data, economics, and machine learning. My work focuses on agricultural prediction: constructing maize and rice ground-truth datasets, completing rice sampling, and building XGBoost features to predict cultivated area across Asian countries.",
+    "url": "https://hy263.github.io/projects/",
+    "linkLabel": "Lab website",
+    "tags": [
+      "remote sensing",
+      "machine learning",
+      "agriculture"
+    ]
   },
   {
-    "title": "Miracle Project",
-    "state": "Research assistant",
-    "summary": "Historical Korean administrative-region data construction for 1960-1989 using statistical yearbooks and archival sources.",
-    "tags": ["data-construction", "research-assistant"]
+    "title": "MIRACLE — Subnational Economic Data for South Korea, 1960–1989",
+    "state": "Research Associate",
+    "period": "Nov 2025–Present",
+    "summary": "MIRACLE is building a consistent township-year economic panel from municipal statistical yearbooks and other archival records. I completed administrative-region data collection, coordinated a five-person collection team, and now work on OCR-based extraction and processing of historical statistical records.",
+    "url": "https://miracle.bookangseol.com/",
+    "linkLabel": "Project website",
+    "tags": [
+      "historical data",
+      "OCR",
+      "geographic harmonization"
+    ]
   },
   {
-    "title": "Python Data Analyst Training",
-    "state": "Training",
-    "summary": "Government-sponsored training in Python data handling, data collection, machine learning basics, and visualization.",
-    "tags": ["python", "data-analysis"]
+    "title": "Satellite-Based Measurement of North Korean Economic Activity",
+    "state": "Upcoming Collaboration",
+    "period": "Bank of Korea",
+    "summary": "A planned collaboration using satellite data to estimate industrial production and develop measures of economic activity where conventional statistics are limited.",
+    "tags": [
+      "economic measurement",
+      "satellite data"
+    ]
   }
 ]

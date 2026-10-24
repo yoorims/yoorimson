@@ -1,20 +1,18 @@
 [
   {
-    "title": "Applied Microeconomics and Development Economics",
-    "status": "Primary field",
-    "cadence": "Research agenda",
-    "summary": "I am interested in empirical questions in development economics, especially how infrastructure and local conditions shape economic activity."
+    "title": "Digital Infrastructure and Development",
+    "summary": "I am interested in how improvements in digital connectivity and other forms of infrastructure shape local economic development, particularly when the benefits of new infrastructure are distributed unevenly across space."
   },
   {
-    "title": "Causal Inference and Panel Data",
-    "status": "Methodological focus",
-    "cadence": "Working paper",
-    "summary": "My current work uses district-level panel data and econometric methods including difference-in-differences and instrumental variables."
+    "title": "Spatial Development and Inequality",
+    "summary": "I study spatial differences in access to infrastructure and economic opportunities, and how these differences contribute to uneven patterns of local and regional development."
   },
   {
-    "title": "Spatial Analysis and GIS",
-    "status": "Technical focus",
-    "cadence": "Data construction",
-    "summary": "I work with spatial analysis, GIS, satellite-based proxies, data collection, cleaning, and panel data construction."
+    "title": "Remote Sensing and Economic Measurement",
+    "summary": "I am interested in combining conventional economic data with satellite imagery, geospatial information, and other nontraditional data sources to measure economic activity where standard administrative or survey data are limited."
+  },
+  {
+    "title": "African Development",
+    "summary": "My regional interests center on African economies, with particular attention to infrastructure, technological change, local development, and spatial inequality."
   }
 ]
