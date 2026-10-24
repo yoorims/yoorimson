@@ -4,7 +4,7 @@
   "photo": "./assets/profile.png",
   "role": "M.A. Student in Economics",
   "tagline": "Development Economics and Digital Infrastructure",
-  "bio": "I am an M.A. student in Economics at Sogang University, advised by Professor Hyunjoo Yang. My research interests lie in development economics and applied microeconomics, with a focus on digital infrastructure, local economic development, spatial inequality, and economic measurement using geospatial and satellite data. My current research examines mobile broadband upgrading across South African municipalities with different initial quality and poverty levels, as well as spatial broadband adjustment and employment following Equiano. I am a member of the Sogang Spatial Economics & AI Lab and a Research Associate with MIRACLE.",
+  "bio": "I am an M.A. student in Economics at Sogang University, advised by Professor Hyunjoo Yang. My research interests lie in development economics and applied microeconomics, with a focus on digital infrastructure, local economic development, spatial inequality, and economic measurement using geospatial and satellite data. My current research, with Hyunjoo Yang, examines how mobile broadband upgrading during South Africa's 2021–2024 spectrum transition differs across municipalities by initial service quality, baseline poverty, and regulatory priority status. Using quarterly Ookla measurements, we track low-speed service, average performance, and high-speed expansion to distinguish local improvements from changes in gaps across places. I am a member of the Sogang Spatial Economics & AI Lab and a Research Associate with MIRACLE.",
   "affiliation": "M.A. in Economics, Sogang University",
   "location": "Seoul, Korea",
   "email": "yoorim0917@gmail.com",
