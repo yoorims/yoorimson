@@ -116,7 +116,7 @@ section("Education", [
      p("Visiting / Exchange Student; coursework in Political Science")],
 ])
 
-section("Research Fields", [[p(
+section("Research Interests", [[p(
     "Development economics; applied microeconomics; digital infrastructure; local economic "
     "development and spatial inequality; geospatial and satellite-based economic measurement."
 )]])
@@ -126,13 +126,10 @@ section("Working Papers", [[
            "https://yoorims.github.io/yoorimson/assets/SA_Broadband_TP_prose_revised_20261024.pdf")
       + " (with Hyunjoo Yang). October 2026."),
     Spacer(1, 2),
-    p("Uses quarterly Ookla measurements to compare mobile broadband upgrading across South African "
-      "municipalities by initial service quality, baseline poverty, and regulatory priority "
-      "during the 2021-2024 spectrum transition."),
-    Spacer(1, 2),
-    p("Tracks low-speed service, average performance, and high-speed expansion to distinguish "
-      "local improvements from changes in gaps across places. Separate exploratory poverty "
-      "comparisons include inference and measurement-coverage checks."),
+    p("Uses quarterly Ookla data to examine how mobile broadband upgrading during South Africa's "
+      "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority. "
+      "Shows that reductions in low-speed disadvantage can coexist with widening absolute speed "
+      "gaps across municipalities."),
 ]])
 
 section("Research\nExperience", [
@@ -141,21 +138,16 @@ section("Research\nExperience", [
      p("Research Group Member (Master's Student), Sogang University"),
      p("Lab Head: Hyunjoo Yang"),
      Spacer(1, 2),
-     p("Contribute to agricultural prediction using machine learning and spatial data within "
-       "a lab working on geospatial data, economics, and Korea's development."),
-     Spacer(1, 2),
-     p("Collected and constructed maize and rice ground-truth datasets; completed the rice "
-       "sampling workflow and am constructing XGBoost features to predict cultivated area across Asian countries.")],
+     p("Work on crop-area prediction using machine learning and spatial data across Asian countries. "
+       "Built maize and rice ground-truth datasets, completed rice sampling, and am constructing "
+       "XGBoost features for cultivated-area prediction.")],
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
      p("Research Associate; Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang"),
      Spacer(1, 2),
-     p("Contribute to a consistent township-year economic panel using municipal statistical "
-       "yearbooks and archival records, with geographic identifiers spanning administrative boundary changes."),
-     Spacer(1, 2),
-     p("Completed administrative-region data collection and coordinated a five-person collection team."),
-     Spacer(1, 2),
-     p("Currently work on OCR-based extraction and processing of historical statistical records.")],
+     p("Help build a consistent township-year economic panel from historical yearbooks and archival records. "
+       "Completed administrative-region data collection, coordinated a five-person team, and now "
+       "work on OCR extraction and processing.")],
 ])
 
 section("Seminars &\nConferences", [[
@@ -166,14 +158,17 @@ section("Seminars &\nConferences", [[
     p("<i>The Economic Impact of Submarine Cable Arrival on Local Economic Activity: "
       "Evidence from South Africa</i> (with Hyunjoo Yang)."),
     p("Presenter; Contributed Session A5: Empirical Microeconomics"),
+    Spacer(1, 2),
+    p("Examines how international connectivity gains translate into local broadband upgrading "
+      "and economic activity in South Africa."),
 ]])
 
 section("Planned\nCollaboration", [[
     dated("Satellite-Based Measurement of North Korean Economic Activity", "Upcoming"),
     p("Bank of Korea"),
     Spacer(1, 2),
-    p("Planned collaboration using satellite data to estimate industrial production and develop "
-      "measures of economic activity where conventional statistics are limited."),
+    p("Planned collaboration using satellite observations to measure North Korean industrial "
+      "production where conventional economic statistics are limited."),
 ]])
 
 section("Methods & Data", [[
