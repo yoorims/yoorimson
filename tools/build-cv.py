@@ -119,22 +119,12 @@ entry(
     link("Mobile Broadband Upgrading and Spatial Inequality in South Africa",
          "https://yoorims.github.io/yoorimson/assets/SA_Broadband_TP_prose_revised_20261024.pdf"),
     "With Hyunjoo Yang | October 2026", bullets=[
-        "Follows South Africa's 2021-2024 spectrum transition using quarterly Ookla measurements, "
-        "comparing municipalities by initial quality, baseline poverty, and regulatory priority.",
-        "Documents narrowing low-speed and relative-speed disadvantages alongside widening absolute "
-        "speed gaps. Separate exploratory poverty comparisons examine high-speed expansion, "
-        "with inference and measurement-coverage qualifications.",
-    ],
-)
-entry(
-    link("Where Do International Connectivity Gains Arrive?",
-         "https://yoorims.github.io/yoorimson/papers.html#equiano"),
-    "Draft", lines=["<i>Spatial Broadband Upgrading and Employment after Equiano in South Africa</i>"],
-    bullets=[
-        "Combines municipal broadband measurements, sectoral administrative employment data, "
-        "spatial measures, and satellite-derived controls to study post-2023 spatial adjustment.",
-        "Examines spatial broadband gradients using fixed effects, event studies, and "
-        "synthetic-control diagnostics, with explicit limits on causal attribution.",
+        "Uses quarterly Ookla measurements to compare mobile broadband upgrading across South African "
+        "municipalities by initial service quality, baseline poverty, and regulatory priority "
+        "during the 2021-2024 spectrum transition.",
+        "Tracks low-speed service, average performance, and high-speed expansion to distinguish "
+        "local improvements from changes in gaps across places. Separate exploratory poverty "
+        "comparisons include inference and measurement-coverage checks.",
     ],
 )
 
