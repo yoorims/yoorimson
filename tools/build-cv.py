@@ -2,8 +2,9 @@
 
 Sources: preserved original CV; current homepage research descriptions;
 https://hy263.github.io/projects/; https://miracle.bookangseol.com/;
+https://sites.google.com/view/ker2026/program (program book, p. 15);
 SA_Broadband_TP_prose_revised_20261024.pdf (title page and abstract).
-Education dates, training, contact and language details retain the original CV.
+Education dates, contact and language details retain the original CV.
 Personal project contributions retain the existing homepage descriptions.
 """
 
@@ -163,16 +164,21 @@ entry(
     ],
 )
 
+section("Conference Presentations")
+entry(
+    link("2026 Korean Economic Review (KER) International Conference",
+         "https://sites.google.com/view/ker2026/program"),
+    "June 22, 2026 | Halla Convention Center, Jeju, South Korea", lines=[
+        "<i>The Economic Impact of Submarine Cable Arrival on Local Economic Activity: "
+        "Evidence from South Africa</i>",
+        "With Hyunjoo Yang | Presenter | Contributed Session A5: Empirical Microeconomics",
+    ],
+)
+
 section("Planned Collaboration")
 entry("Satellite-Based Measurement of North Korean Economic Activity", "Upcoming | Bank of Korea", [
     "Planned collaboration using satellite data to estimate industrial production and develop "
     "measures of economic activity where conventional statistics are limited.",
-])
-
-section("Training")
-entry("MultiCampus, Seoul, Korea", "Feb 2024 - Jul 2024", [
-    "Data Analyst Training (Python) | Government-Sponsored Program",
-    "Data collection and handling, basic machine learning, and visualization using Python.",
 ])
 
 section("Methods & Data")
