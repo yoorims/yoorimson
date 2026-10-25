@@ -154,7 +154,7 @@ section("Research\nExperience", [
        "North Korean industrial production and economic activity.")],
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
-     p("Research Assistant"),
+     p("Research Assistant to BooKang Seol (LSE)"),
      p("Project Leads: BooKang Seol (LSE), Changkeun Lee, and Hyunjoo Yang"),
      Spacer(1, 2),
      p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
