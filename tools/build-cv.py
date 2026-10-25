@@ -114,7 +114,7 @@ section("Education", [
      dated(link("BK21 FOUR (Brain Korea 21), Participating Graduate Student",
                 "https://bk21econ.sogang.ac.kr/bk21econ/D_3822_23620.html"),
            "Sep 2026-Feb 2027"),
-     p("AI-Economics Convergence Education and Research Group "
+     p("AI-Economics Convergence Education and Research Group<br/>"
        "for Addressing Korea's Economic Challenges")],
     [dated("Hankuk University of Foreign Studies", "Mar 2017-Feb 2021"),
      p("B.A. in South African Languages and Cultures; Yongin, Korea"),
@@ -150,13 +150,12 @@ section("Research\nExperience", [
        "XGBoost features for crop-area prediction."),
      Spacer(1, 2),
      dated("North Korean Industrial Production and Economic Activity", "Aug 2026"),
-     p("Collaboration with the Bank of Korea"),
-     p("Project using daytime satellite imagery, atmospheric gas data, and AI to measure "
+     p("Supported a Bank of Korea collaboration using daytime satellite imagery, atmospheric gas data, and AI to measure "
        "North Korean industrial production and economic activity.")],
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
      p("Research Assistant"),
-     p("Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang"),
+     p("Project Leads: BooKang Seol (LSE), Changkeun Lee, and Hyunjoo Yang"),
      Spacer(1, 2),
      p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
      Spacer(1, 2),
