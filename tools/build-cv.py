@@ -2,7 +2,8 @@
 
 Layout reference: https://jackcollison.github.io/assets/pdf/collison_cv.pdf
 Content: existing CV, current homepage, SA_Broadband_TP_prose_revised_20261024.pdf,
-and the official KER 2026 program (p. 15). No reference CV content is reused.
+the official KER 2026 program (p. 15), and the user's project participation record.
+No reference CV content is reused.
 """
 
 from pathlib import Path
@@ -108,7 +109,13 @@ def section(label, entries):
 section("Education", [
     [dated("Sogang University, Seoul, Korea", "Mar 2025-present"),
      p("M.A. in Economics; expected graduation: 2027"),
-     p("Advisor: Hyunjoo Yang")],
+     p("Advisor: Hyunjoo Yang"),
+     Spacer(1, 2),
+     dated(link("BK21 FOUR (Brain Korea 21), Participating Graduate Student",
+                "https://bk21econ.sogang.ac.kr/bk21econ/D_3822_23620.html"),
+           "Sep 2026-Feb 2027"),
+     p("AI-Economics Convergence Education and Research Group "
+       "for Addressing Korea's Economic Challenges")],
     [dated("Hankuk University of Foreign Studies", "Mar 2017-Feb 2021"),
      p("B.A. in South African Languages and Cultures; Yongin, Korea"),
      p("Minor in Political Science and Diplomacy")],
@@ -129,23 +136,26 @@ section("Working Papers", [[
     p("Uses quarterly Ookla data to examine how mobile broadband upgrading during South Africa's "
       "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority."),
     Spacer(1, 2),
-    p("Shows that reductions in low-speed disadvantage<br/>can coexist with widening absolute speed "
+    p("Narrowing low-speed disadvantage can coexist with widening absolute speed "
       "gaps across municipalities."),
 ]])
 
 section("Research\nExperience", [
     [dated(link("Sogang Spatial Economics & AI Lab", "https://hy263.github.io/projects/"),
            "Apr 2026-present"),
-     p("Research Group Member (Master's Student), Sogang University"),
-     p("Lab Head: Hyunjoo Yang"),
+     p("Research Assistant to Hyunjoo Yang, Sogang University"),
      Spacer(1, 2),
-     p("Work on crop-area prediction using machine learning and spatial data across Asian countries."),
+     dated("Satellite-Based Global Crop Mapping and Yield-Prediction Design", "Sep 2026"),
+     p("Constructed maize and rice ground-truth data and completed rice sampling; am developing "
+       "XGBoost features for crop-area prediction."),
      Spacer(1, 2),
-     p("Built maize and rice ground-truth datasets, completed rice sampling, and am constructing "
-       "XGBoost features for cultivated-area prediction.")],
+     dated("North Korean Industrial Production and Economic Activity", "Aug 2026"),
+     p("Collaboration with the Bank of Korea"),
+     p("Project using daytime satellite imagery, atmospheric gas data, and AI to measure "
+       "North Korean industrial production and economic activity.")],
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
-     p("Research Associate"),
+     p("Research Assistant"),
      p("Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang"),
      Spacer(1, 2),
      p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
@@ -165,14 +175,6 @@ section("Seminars &\nConferences", [[
     Spacer(1, 2),
     p("Examines how international connectivity gains translate into local broadband upgrading "
       "and economic activity in South Africa."),
-]])
-
-section("Planned\nCollaboration", [[
-    dated("Satellite-Based Measurement of North Korean Economic Activity", "Upcoming"),
-    p("Bank of Korea"),
-    Spacer(1, 2),
-    p("Planned collaboration using satellite observations to measure North Korean industrial "
-      "production where conventional economic statistics are limited."),
 ]])
 
 section("Methods & Data", [[
