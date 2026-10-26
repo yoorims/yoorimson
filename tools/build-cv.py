@@ -100,14 +100,12 @@ section("Education", [
      Spacer(1, 2),
      dated(link("BK21 FOUR (Brain Korea 21), Participating Graduate Student",
                 "https://bk21econ.sogang.ac.kr/bk21econ/D_3822_23620.html"),
-           "Sep 2026-Feb 2027", META),
-     p("AI-Economics Convergence Education and Research Group<br/>"
-       "for Addressing Korea's Economic Challenges", META)],
+           "Sep 2026-Feb 2027", META)],
     [dated("Hankuk University of Foreign Studies", "Mar 2017-Feb 2021"),
      p("B.A. in South African Languages and Cultures; Yongin, Korea"),
      p("Minor in Political Science and Diplomacy", META)],
     [dated("University of Botswana, Gaborone, Botswana", "Jan-May 2018"),
-     p("Visiting / Exchange Student; coursework in Political Science", META)],
+     p("Visiting / Exchange Student", META)],
 ])
 
 section("Research Interests", [[p(
@@ -124,7 +122,7 @@ section("Working Papers", [[
     p("Uses quarterly Ookla data to examine how mobile broadband upgrading during South Africa's "
       "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority."),
     Spacer(1, 2),
-    p("Narrowing low-speed disadvantage<br/>can coexist with widening absolute speed "
+    p("Narrowing low-speed disadvantage can coexist with widening absolute speed "
       "gaps across municipalities."),
 ]])
 
@@ -133,11 +131,11 @@ section("Research\nExperience", [
            "Apr 2026-present"),
      p("Research Assistant to Hyunjoo Yang, Sogang University", META),
      Spacer(1, 2),
-     dated("Satellite-Based Global Crop Mapping and Yield-Prediction Design", "Sep 2026"),
+     p("Satellite-Based Global Crop Mapping and Yield-Prediction Design", TITLE),
      p("Constructed maize and rice ground-truth data and completed rice sampling; am developing "
        "XGBoost features for crop-area prediction."),
      Spacer(1, 2),
-     dated("North Korean Industrial Production and Economic Activity", "Aug 2026"),
+     p("North Korean Industrial Production and Economic Activity", TITLE),
      p("Supported a Bank of Korea collaboration using daytime satellite imagery, atmospheric gas data, and AI to measure "
        "North Korean industrial production and economic activity.")],
 ])
@@ -147,11 +145,11 @@ section("Research Experience (continued)", [
     [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
                 "https://miracle.bookangseol.com/"), "Nov 2025-present"),
      p("Research Assistant to BooKang Seol (LSE)", META),
-     p("Project Leads: BooKang Seol (LSE), Changkeun Lee, and Hyunjoo Yang", META),
+     p("Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang", META),
      Spacer(1, 2),
      p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
      Spacer(1, 2),
-     p("Completed administrative-region data collection, coordinated a five-person team, and now "
+     p("Completed administrative-region data collection and now "
        "work on OCR extraction and processing.")],
 ])
 
@@ -162,10 +160,6 @@ section("Seminars &\nConferences", [[
     Spacer(1, 2),
     p("<i>The Economic Impact of Submarine Cable Arrival on Local Economic Activity:<br/>"
       "Evidence from South Africa</i> (with Hyunjoo Yang)."),
-    p("Presenter; Contributed Session A5: Empirical Microeconomics", META),
-    Spacer(1, 2),
-    p("Examines how international connectivity gains translate into local broadband upgrading "
-      "and economic activity in South Africa."),
 ]])
 
 section("Methods & Data", [[
