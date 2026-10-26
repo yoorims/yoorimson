@@ -1,6 +1,8 @@
 """Build the public CV with a single-column academic layout.
 
 Layout reference: https://hy263.github.io/assets/cv.pdf
+Content presentation reference: https://sites.google.com/view/chaewon-kim/vitae
+Use the role/project/contribution structure with Yoorim Son's verified experience.
 Dates remain right-aligned; Education and Research Interests come first.
 Content: existing CV, current homepage, SA_Broadband_TP_prose_revised_20261024.pdf,
 the official KER 2026 program (p. 15), and the user's project participation record.
@@ -109,8 +111,8 @@ section("Education", [
 ])
 
 section("Research Interests", [[p(
-    "Development economics; applied microeconomics; digital infrastructure; local economic "
-    "development and spatial inequality; geospatial and satellite-based economic measurement."
+    "Development economics; applied microeconomics; digital infrastructure; spatial inequality; "
+    "economic measurement."
 )]])
 
 section("Working Papers", [[
@@ -119,38 +121,37 @@ section("Working Papers", [[
           "October 2026"),
     p("(with Hyunjoo Yang).", META),
     Spacer(1, 2),
-    p("Uses quarterly Ookla data to examine how mobile broadband upgrading during South Africa's "
-      "2021-2024 spectrum transition varies with initial quality, poverty, and regulatory priority."),
+    p("Compares municipal broadband upgrading by initial quality, baseline poverty, and regulatory "
+      "priority using quarterly Ookla data from South Africa's 2021-2024 spectrum transition."),
     Spacer(1, 2),
-    p("Narrowing low-speed disadvantage can coexist with widening absolute speed "
-      "gaps across municipalities."),
+    p("Reduced low-speed disadvantage can coexist with widening absolute speed gaps."),
 ]])
 
 section("Research\nExperience", [
-    [dated(link("Sogang Spatial Economics & AI Lab", "https://hy263.github.io/projects/"),
-           "Apr 2026-present"),
-     p("Research Assistant to Hyunjoo Yang, Sogang University", META),
+    [dated("Research Assistant to Hyunjoo Yang, Sogang University", "Apr 2026-present"),
+     p(link("Sogang Spatial Economics & AI Lab", "https://hy263.github.io/projects/"), META),
      Spacer(1, 2),
      p("Satellite-Based Global Crop Mapping and Yield-Prediction Design", TITLE),
-     p("Constructed maize and rice ground-truth data and completed rice sampling; am developing "
-       "XGBoost features for crop-area prediction."),
+     p("Constructed maize and rice ground-truth datasets and completed rice sampling."),
+     Spacer(1, 2),
+     p("Develop XGBoost features to predict cultivated area across Asian countries."),
      Spacer(1, 2),
      p("North Korean Industrial Production and Economic Activity", TITLE),
-     p("Supported a Bank of Korea collaboration using daytime satellite imagery, atmospheric gas data, and AI to measure "
-       "North Korean industrial production and economic activity.")],
+     p("Support a Bank of Korea collaboration on measuring North Korean industrial production "
+       "and economic activity using daytime satellite imagery, atmospheric gas data, and AI.")],
 ])
 
 story.append(PageBreak())
 section("Research Experience (continued)", [
-    [dated(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
-                "https://miracle.bookangseol.com/"), "Nov 2025-present"),
-     p("Research Assistant to BooKang Seol (LSE)", META),
+    [dated("Research Assistant to BooKang Seol (LSE)", "Nov 2025-present"),
+     p(link("MIRACLE: Subnational Economic Data for South Korea, 1960-1989",
+            "https://miracle.bookangseol.com/"), META),
      p("Project Leads: BooKang Seol, Changkeun Lee, and Hyunjoo Yang", META),
      Spacer(1, 2),
-     p("Help build a consistent township-year economic panel from historical yearbooks and archival records."),
+     p("Completed administrative-region data collection for a consistent township-year economic "
+       "panel of South Korea, 1960-1989."),
      Spacer(1, 2),
-     p("Completed administrative-region data collection and now "
-       "work on OCR extraction and processing.")],
+     p("Extract and process historical statistical records using OCR.")],
 ])
 
 section("Seminars &\nConferences", [[
@@ -167,8 +168,8 @@ section("Methods & Data", [[
     p("<i>Empirical methods:</i> Fixed effects, event studies, spatial exposure designs, "
       "synthetic-control diagnostics; training in difference-in-differences and instrumental variables."),
     p("<i>Machine learning:</i> XGBoost, sampling, and feature construction."),
-    p("<i>Data:</i> Panel and administrative data, broadband performance, GIS and satellite-derived "
-      "measures, historical archives, crop ground-truth data, and OCR workflows."),
+    p("<i>Data:</i> Municipal and administrative panels; broadband measurements; GIS and satellite "
+      "data; historical records and OCR; crop ground-truth datasets."),
 ]])
 
 section("Languages", [[p("Korean: Native; English: Intermediate (academic reading and writing).")]])
