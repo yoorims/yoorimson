@@ -172,7 +172,7 @@ section("Methods & Data", [[
       "data; historical records and OCR; crop ground-truth datasets."),
 ]])
 
-section("Languages", [[p("Korean: Native; English: Intermediate (academic reading and writing).")]])
+section("Languages", [[p("Korean: Native; English: Fluent.")]])
 
 
 def first_page(canvas, doc):
