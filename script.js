@@ -5,7 +5,7 @@ const fallbackData = {
     "photo": "./assets/profile.png",
     "role": "M.A. Student in Economics",
     "tagline": "Development Economics and Digital Infrastructure",
-    "bio": "I am an M.A. student in Economics at Sogang University, advised by Professor Hyunjoo Yang. My research interests lie in development economics and applied microeconomics, with a focus on digital infrastructure, local economic development, spatial inequality, and economic measurement using geospatial and satellite data. My current research, with Hyunjoo Yang, examines how mobile broadband upgrading during South Africa's 2021–2024 spectrum transition differs across municipalities by initial service quality, baseline poverty, and regulatory priority status. Using quarterly Ookla measurements, we track low-speed service, average performance, and high-speed expansion to distinguish local improvements from changes in gaps across places. I am a member of the Sogang Spatial Economics & AI Lab and a Research Associate with MIRACLE.",
+    "bio": "I am an M.A. student in Economics at Sogang University, advised by Professor Hyunjoo Yang. My research interests lie in development economics and applied microeconomics, with a focus on digital infrastructure, local economic development, spatial inequality, and economic measurement using geospatial and satellite data. My current research, with Hyunjoo Yang, examines how mobile broadband upgrading during South Africa's 2021–2024 spectrum transition differs across municipalities by initial service quality, baseline poverty, and regulatory priority status. Using quarterly Ookla measurements, we track low-speed service, average performance, and high-speed expansion to distinguish local improvements from changes in gaps across places. I work as a Research Assistant to Hyunjoo Yang at the Sogang Spatial Economics & AI Lab and to BooKang Seol (LSE) on MIRACLE.",
     "affiliation": "M.A. in Economics, Sogang University",
     "location": "Seoul, Korea",
     "email": "yoorim0917@gmail.com",
@@ -15,7 +15,7 @@ const fallbackData = {
   projects: [
     {
       "title": "Sogang Spatial Economics & AI Lab",
-      "state": "Research Group Member",
+      "state": "Research Assistant to Hyunjoo Yang",
       "period": "Apr 2026–Present · Sogang University",
       "summary": "Led by Hyunjoo Yang, the lab brings together geospatial data, economics, and machine learning. My work focuses on agricultural prediction: constructing maize and rice ground-truth datasets, completing rice sampling, and building XGBoost features to predict cultivated area across Asian countries.",
       "url": "https://hy263.github.io/projects/",
@@ -28,9 +28,9 @@ const fallbackData = {
     },
     {
       "title": "MIRACLE — Subnational Economic Data for South Korea, 1960–1989",
-      "state": "Research Associate",
+      "state": "Research Assistant to BooKang Seol (LSE)",
       "period": "Nov 2025–Present",
-      "summary": "MIRACLE is building a consistent township-year economic panel from municipal statistical yearbooks and other archival records. I completed administrative-region data collection, coordinated a five-person collection team, and now work on OCR-based extraction and processing of historical statistical records.",
+      "summary": "MIRACLE is building a consistent township-year economic panel from municipal statistical yearbooks and other archival records. I completed administrative-region data collection and now work on OCR-based extraction and processing of historical statistical records.",
       "url": "https://miracle.bookangseol.com/",
       "linkLabel": "Project website",
       "tags": [
@@ -41,9 +41,9 @@ const fallbackData = {
     },
     {
       "title": "Satellite-Based Measurement of North Korean Economic Activity",
-      "state": "Upcoming Collaboration",
+      "state": "Research in Progress",
       "period": "Bank of Korea",
-      "summary": "A planned collaboration using satellite data to estimate industrial production and develop measures of economic activity where conventional statistics are limited.",
+      "summary": "Uses daytime satellite imagery, atmospheric gas data, and AI to measure North Korean industrial production and economic activity. I contribute as a Research Assistant to Hyunjoo Yang.",
       "tags": [
         "economic measurement",
         "satellite data"
