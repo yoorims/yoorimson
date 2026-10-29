@@ -188,8 +188,7 @@ def first_page(canvas, doc):
     left_lines = ["Sogang University", "M.A. Student in Economics", "Seoul, Korea"]
     right_lines = [
         [("yoorim0917@gmail.com", "mailto:yoorim0917@gmail.com")],
-        [("yoorims.github.io/yoorimson", "https://yoorims.github.io/yoorimson/index.html"),
-         (" | ", None), ("GitHub", "https://github.com/yoorims")],
+        [("yoorims.github.io/yoorimson", "https://yoorims.github.io/yoorimson/index.html")],
         [],
     ]
     for index, (left, segments) in enumerate(zip(left_lines, right_lines)):

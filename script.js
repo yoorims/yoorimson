@@ -9,7 +9,6 @@ const fallbackData = {
     "affiliation": "M.A. in Economics, Sogang University",
     "location": "Seoul, Korea",
     "email": "yoorim0917@gmail.com",
-    "github": "https://github.com/yoorims",
     "scholar": "https://scholar.google.com/"
   },
   projects: [
@@ -92,10 +91,6 @@ function renderProfile(profile) {
 
   document.querySelectorAll("[data-profile-link='email']").forEach((element) => {
     element.setAttribute("href", `mailto:${profile.email}`);
-  });
-
-  document.querySelectorAll("[data-profile-link='github']").forEach((element) => {
-    element.setAttribute("href", profile.github);
   });
 
   document.querySelectorAll("[data-profile-link='scholar']").forEach((element) => {
